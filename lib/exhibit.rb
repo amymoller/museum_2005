@@ -6,18 +6,6 @@ class Exhibit
   def initialize(name)
     @name = name
     @cost = 0
-  end 
-
-
-
-
-
-
-
-
-
-
-
-
+  end
 
 end
