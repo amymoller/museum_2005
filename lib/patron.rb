@@ -6,7 +6,7 @@ class Patron
 
   def initialize(name)
     @name = name
-    @spending_money = spending_money
+    @spending_money = 0
     @interests = []
   end
 
@@ -16,6 +16,6 @@ class Patron
 
   def add_interest(interest)
     @interests << interest
-  end 
+  end
 
 end
