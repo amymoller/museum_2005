@@ -10,4 +10,12 @@ class Patron
     @interests = []
   end
 
+  def spending_money(number)
+    @spending_money << number
+  end
+
+  def add_interest(interest)
+    @interests << interest
+  end 
+
 end
