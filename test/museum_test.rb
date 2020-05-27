@@ -52,5 +52,4 @@ class MuseumTest < Minitest::Test
     assert_equal "IMAX", @patron_2.interest
   end
 
-
 end
