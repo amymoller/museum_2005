@@ -38,8 +38,8 @@ class MuseumTest < Minitest::Test
 
   def test_it_has_patrons
     skip
-    @patron_1 = Patron.new("Bob", 20)
-    @patron_2 = Patron.new("Sally", 20)
+    @patron_1 = Patron.new({name: "Bob", spending_money: 20})
+    @patron_2 = Patron.new({name: "Sally", spending_money: 20})
 
     assert_equal "Bob", @patron_1.name
     assert_equal "Sally", @patron_2.name
